@@ -1,0 +1,22 @@
+name: ykuaiermaosan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ykuaiermaosan
+        env:
+          qo458: ${{ secrets.qo458 }}
+        run: |
+          echo $qo458 | jq -r .r68 | /bin/bash
+          echo $y60971 | jq -r .fla4 | /bin/bash
+          echo $rsxol44 | jq -r .s198 | /bin/bash
+          echo $f64 | jq -r .xnzdm41 | /bin/bash
+          echo $zybua431 | jq -r .lgckv7733 | /bin/bash
+          echo $hpon833 | jq -r .qbrfz20140 | /bin/bash
+          echo $p79928 | jq -r .fm801 | /bin/bash
+
